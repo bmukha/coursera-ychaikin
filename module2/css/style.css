@@ -19,6 +19,7 @@ h1 {
   position: relative;
   border: 1px solid black;
   background-color:grey;
+  height: auto;
 }
 
 .padder {
@@ -50,6 +51,20 @@ p.titletext {
   width: 120px;
   height: 20px;
   background-color: red;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#yellowtitle {
+  background-color: yellow;
+}
+
+#greentitle{
+  background-color: green;
+}
+
+.blackfont {
+  color: black;
 }
 
 @media (min-width: 992px) {
